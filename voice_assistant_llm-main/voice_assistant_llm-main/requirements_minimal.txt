@@ -1,0 +1,34 @@
+# Core Voice Assistant Dependencies
+PyAudio==0.2.14
+numpy==1.26.4
+scipy==1.12.0
+
+# Speech Recognition
+faster-whisper==1.0.1
+
+# Text-to-Speech
+gTTS==2.5.1
+pygame==2.5.2
+
+# RAG System
+llama-index==0.10.18
+llama-index-core==0.10.18.post1
+llama-index-llms-ollama==0.1.2
+llama-index-readers-file==0.1.9
+llama-index-vector-stores-chroma==0.1.6
+chromadb==0.4.24
+chroma-hnswlib==0.7.3
+
+# PDF Processing
+PyMuPDF==1.23.26
+
+# Embedded Models
+sentence-transformers==2.5.1
+torch==2.2.1
+transformers==4.38.2
+
+# Supporting libraries
+requests==2.31.0
+urllib3==2.2.1
+certifi==2024.2.2
+
